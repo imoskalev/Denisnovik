@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300;400;500;600;900&display=swap');
+
+html {
+    scroll-behavior: smooth;
+  }
+body {
+    font-family: 'Merienda';
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10%;
+    font-size: 18px;
+    background-color: rgb(255, 255, 255);
+}
+
+a{
+    transition: 0.3s;
+    color: #828282;
+    text-decoration: none;
+}
+a:hover{
+    transition: 0.3s;
+    color: black;
+    
+    border-radius: 4px;
+}
+.header {
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    width: 80%;
+    height: 5%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    background: #fff;
+    align-items: center;
+    border-bottom: 1px solid #828282; 
+}
+.header_section {
+    display: flex;
+}
+.header_item {
+    display: flex;
+    padding: 80px ;
+
+}
+.home {
+    padding-top: 10px;
+    padding-bottom: 5%;
+}
+.hometext {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    padding-right: 30px;
+}
+.homeitem1 {
+    display: flex;
+    align-items: center;
+    font-size: 48px;
+    color: black;
+    font-weight: bold;
+}
+.homeitem2 {
+    display: flex;
+    align-items: center;
+}
+.homeitem3 {
+    display: flex;
+    align-items: flex-end;
+    transform: rotate(-90deg)
+}
+  .resimg {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .resimg img {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+  }
+  .aboutme{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #F6F6F6;
+    text-align: center;
+  }
+  .razdelname{
+    padding-bottom: 30px;
+    font-size: 34px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .skills{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+  }
+  .skillscat{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+
+  }
+  .skillsitem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .skillsitem img{
+    height: 90px;
+    width: 90px;
+    background-color: black;
+  }
+  .portfolio{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    background: #F6F6F6;
+  }
+  .contacts{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+  }
+  .conthref{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+  .contic{
+    display: flex;
+  }
+  .contic img{
+    padding: 10px;
+    height: 40px;
+    width: 40px;
+  }
